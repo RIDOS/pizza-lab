@@ -1,5 +1,5 @@
 # pizza-lab
-
+![img](./src/assets/Screenshot.png)
 ## Project setup
 ```
 npm install
