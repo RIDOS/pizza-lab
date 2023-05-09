@@ -30,7 +30,8 @@ export default {
           description: "Выберите пиццы для левой и правой половинки",
           price: 649,
           stock: 10,
-          rating: 4,
+          size: 41,
+          vegan: false
         },
         {
           id: 2,
@@ -39,7 +40,8 @@ export default {
           description: "Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо",
           price: 289,
           stock: 50,
-          rating: 5,
+          size: 50,
+          vegan: false
         },
         {
           id: 3,
@@ -48,52 +50,58 @@ export default {
           description: "Пастрами из мраморной говядины, сладкий перец, томаты, красный лук",
           price: 419,
           stock: 10,
-          rating: 3,
+          size: 30,
+          vegan: true
         },
         {
           id: 4,
           title: "Сырная",
           image: "image-4.webp",
           description: "Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо",
-          price: 289,
+          price: 0,
           stock: 0,
-          rating: 2,
+          size: 28,
+          vegan: false
         },
         {
           id: 5,
           title: "Пицца от шефа",
           image: "image-5.webp",
           description: "Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо",
-          price: 289,
+          price: 285,
           stock: 50,
-          rating: 5,
+          size: 51,
+          vegan: true
         },
         {
           id: 6,
           title: "Гавайская с альфредо",
           image: "image-6.webp",
           description: "Пастрами из мраморной говядины, сладкий перец, томаты, красный лук",
-          price: 419,
+          price: 415,
           stock: 10,
-          rating: 4,
+          size: 45,
+          vegan: false
         },
         {
           id: 7,
           title: "Defoult Честер",
           image: "image-7.webp",
           description: "Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо",
-          price: 289,
+          price: 283,
           stock: 50,
-          rating: 3,
+          size: 32,
+          vegan: true
         },
         {
           id: 8,
           title: "Пицца от черепашек",
           image: "image-8.webp",
           description: "Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо",
-          price: 289,
+          price: 0,
           stock: 0,
-          rating: 4,
+          size: 42,
+          vegan: false
         },
         {
           id: 9,
@@ -102,16 +110,18 @@ export default {
           description: "Пастрами из мраморной говядины, сладкий перец, томаты, красный лук",
           price: 419,
           stock: 10,
-          rating: 3,
+          size: 31,
+          vegan: false
         },
         {
           id: 10,
           title: "Грибная",
           image: "image-10.webp",
           description: "Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо",
-          price: 289,
+          price: 281,
           stock: 50,
-          rating: 5,
+          size: 20,
+          vegan: false
         },
       ],
       rewiews: [
@@ -209,5 +219,10 @@ export default {
 }
 h3 {
   font-style: italic;
+}
+select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
 }
 </style>
